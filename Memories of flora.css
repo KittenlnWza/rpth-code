@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/mellodi-roosthm');
+
+
+/* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  margin: 0;
+
+}
+
+.mfl {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  min-width: 800px;
+  min-height: 600px
+  overflow: hidden;
+  background: var(--bg);
+}
+
+/* Envelope */
+
+/* Envelope - pink */
+
+.mfl-env-pink {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/Pvm7CHS2/env-pink.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-9deg);
+  z-index: 1;
+}
+
+/* Envelope - orange*/
+
+.mfl-env-orange {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/wZbdrfy0/env-orange.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Envelope - red */
+
+.mfl-env-red {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/RT1Cfrxx/env-red.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Envelope - purple */
+
+.mfl-env-purple {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/mCP3vsDR/env-purple.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Envelope - lightblue */
+
+.mfl-env-lightblue {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/9mBMn1cc/env-lightblue.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Envelope - green */
+
+.mfl-env-green {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/7JBYNQc5/env-green.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Envelope - yellow */
+
+.mfl-env-yellow {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/hJXLS9GK/env-yellow.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Envelope - white */
+
+.mfl-env-white {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  width: 70%;
+  height: 500px;
+  background: url(https://i.ibb.co/nqCqHB7Q/env-white.png);
+  aspect-ratio: 16 / 9;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-7deg);
+  z-index: 1;
+}
+
+/* Letter */
+
+.mfl-pp {
+  position: absolute;
+  top: 25%;
+  left: 24.1%; 
+  width: 75%;
+  height: 400px;
+  background: url(https://i.ibb.co/hj07scP/mfl-pp.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+/* Flower */
+
+/* Blue larkspur flower */
+
+.mfl-flower-blf {
+  position: absolute;
+  top: 0%;
+  left: 4%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/6cx1CfWR/flower-blf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-13.5deg);
+z-index: 4;
+}
+
+/* Freesia Flower */
+
+.mfl-flower-ff {
+  position: absolute;
+  top: 2.%;
+  left: 3.5%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/jkjbH4Jr/flower-ff.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-10deg);
+z-index: 4;
+}
+
+/* Bluebell Flower */
+
+.mfl-flower-bbf {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/dJw6qxRj/flower-bbf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(15deg);
+z-index: 4;
+}
+
+/* Poppy Flower */
+
+.mfl-flower-pyf {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/7xp0KYG2/flower-pyf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(20deg);
+z-index: 4;
+}
+
+/* Sweet Pea Flower */
+
+.mfl-flower-spf {
+  position: absolute;
+  top: 0%;
+  left: 1.1%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/7d9CydLP/flower-spf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-9deg);
+z-index: 4;
+}
+
+/* Crocus Flower */
+
+.mfl-flower-cf {
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  width: 70%;
+  height: 380px;
+background-image: url(https://i.ibb.co/6cGfkdBj/flower-cf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-9deg);
+z-index: 4;
+}
+
+/* Magnolia Flower */
+
+.mfl-flower-mf {
+  position: absolute;
+  top: 1%;
+  left: 2.5%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/C3hcQysF/flower-mf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-9deg);
+z-index: 4;
+}
+
+
+/* Lily of the Valley Flower */
+
+.mfl-flower-lotvf {
+  position: absolute;
+  top: -10%;
+  left: -5%;
+  width: 64%;
+  height: 400px;
+background-image: url(https://i.ibb.co/8gk4kGcy/flower-lotvf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-21deg);
+z-index: 4;
+}
+
+/* Snowdrop Flower */
+
+.mfl-flower-sdf {
+  position: absolute;
+  top: 1%;
+  left: -29.8%;
+  width: 70%;
+  height: 400px;
+background-image: url(https://i.ibb.co/rGRkPzL6/flower-sdf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(1deg);
+  transform: scalex(-1);
+z-index: 4;
+}
+
+
+/* Lilac Flower */
+
+.mfl-flower-llf {
+  position: absolute;
+  top: 7%;
+  left: 1%;
+  width: 70%;
+  height: 380px;
+background-image: url(https://i.ibb.co/SwtM7Jx5/flower-lilf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(15deg);
+z-index: 4;
+}
+
+/* Polaroid */
+
+.mfl-pt {
+position: absolute;
+  bottom: 12.7%;
+  left: 3%;
+  width: 25%;
+  height: 30%;
+  box-sizing: border-box;
+  background: var(--mflpt) center/cover;
+  transform: rotate(-6deg);
+  z-index: 5;
+}
+
+/* Polaroid Frame*/
+
+.mfl-plr {
+position: absolute;
+  top: 51%;
+  left: -9%;
+  width: 50%;
+  height: 300px;
+  background: url(https://i.ibb.co/F4tH3yTt/mfl-plr.png) center/cover;
+  background-size: contain;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  transform: rotate(3deg);
+  z-index: 6;
+}
+
+/* Shot Note papper */
+
+/* note pink */
+
+.mfl-nt-p {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/Xr4BbLnc/nt-p.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* note orange */
+
+.mfl-nt-o {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/WQpKs22/nt-o.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* note red */
+
+.mfl-nt-r {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/RG5ymn1N/nt-r.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* note purple */
+
+.mfl-nt-pp {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/XfWNCGPt/nt-pp.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* note lighblue */
+
+.mfl-nt-b {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/C5b39ys0/nt-b.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* note white */
+
+.mfl-nt-w {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/GwwNR7s/nt-w.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* note green */
+
+.mfl-nt-w {
+  position: absolute;
+  top: 87%;
+  left: 36%; 
+  width: 76%;
+  height: 60px;
+  background: url(https://i.ibb.co/9HL47Y6Q/nt-g.png) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-1.5deg);
+  z-index: 7;
+}
+
+/* 1-3 decorations - Can be customized */
+
+/* decorations 1 */
+
+.mfl-dc01 {
+  position: absolute;
+  top: 20%;
+  left: 88.2%; 
+  width: 13%;
+  height: 90px;
+  background: var(--dc01) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-8deg);
+  z-index: 9;
+}
+
+/* decorations 2 */
+
+.mfl-dc02 {
+  position: absolute;
+  top: 80.3%;
+  left: 26%; 
+  width: 13%;
+  height: 90px;
+  background: var(--dc02) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-8deg);
+  z-index: 10;
+}
+
+/* decorations 3*/
+
+.mfl-dc03 {
+  position: absolute;
+  top: 80.3%;
+  left: 88.2%; 
+  width: 13%;
+  height: 90px;
+  background: var(--dc03) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-8deg);
+  z-index: 10;
+}
+
+
+
+
+/* Letter txt */
+.mfl-txt {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  width: 90%;
+  height: 86%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 140%;
+  margin: 5px 0px;
+  padding: 20px 10px 20px 30px;
+  box-sizing: border-box;
+  transform: rotate(-1.7deg);
+  z-index: 3;
+  overflow-y: scroll;
+}
+  
+.mfl-txt::-webkit-scrollbar {
+  width: 0.78vw;
+  margin-left: 0.8vw;
+}   
+.mfl-txt::-webkit-scrollbar-track {
+    background: transparent;
+}   
+.mfl-txt::-webkit-scrollbar-thumb {
+    background-color: var(--srb-color);
+    border-radius: 1000px;
+}
+
+
+/* Name or short message on the Polaroid txt */
+
+
+.mfl-lbl {
+  position: absolute;
+  top: 86%;
+  left: 5.8%;
+  width: 23%;
+  height: 9.1%;
+  font-family: 'Mellodi Roosthm', sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  text-align: center;
+  line-height: 100%;
+  font-style: normal;
+  padding: 20px 10px 20px;
+  box-sizing: border-box;
+  transform: rotate(-6.4deg);
+  z-index: 6;
+}
+
+/* shot note txt */
+
+.mfl-ntxt {
+position: absolute;
+  top: 3%;
+  left: 23.1%;
+  width: 50%;
+  height: 90%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  line-height: 15px;
+  font-style: normal;
+  padding: 5px;
+  box-sizing: border-box;
+  transform: rotate(-0.4deg);
+  z-index: 9;
+  overflow-y: scroll;
+}
+
+
+.mfl-ntxt::-webkit-scrollbar {
+  width: 0.78vw;
+  margin-left: 0.8vw;
+}   
+.mfl-ntxt::-webkit-scrollbar-track {
+    background: transparent;
+}   
+.mfl-ntxt::-webkit-scrollbar-thumb {
+    background-color: var(--srb-color);
+    border-radius: 1000px;
+}
