@@ -2,6 +2,8 @@
 @import url('https://fonts.cdnfonts.com/css/mellodi-roosthm');
 
 
+/* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
+
 
 .mfl {
   position: relative;
@@ -241,17 +243,18 @@ position: absolute;
   z-index: 6;
 }
 
-/* shot note txt */
 
+/* shot note txt */
 .mfl-ntxt {
-position: absolute;
-  top: 87%;
+  position: absolute;
+  top: 86%;
   left: 57.5%;
-  width: 40%;
+  width: 36%;
+  height: 6%;
   font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 0.5vw;
+  font-size: 1.2vw;
   color: #101010;
   text-align: center;
   line-height: 1;
@@ -265,16 +268,18 @@ position: absolute;
 
 .mfl-ntxt::-webkit-scrollbar {
   width: 0.78vw;
-  margin-left: 0.8vw;
-}   
+}
+
 .mfl-ntxt::-webkit-scrollbar-track {
-    background: transparent;
+  background: transparent;
 }   
+
 .mfl-ntxt::-webkit-scrollbar-thumb {
-    background-color: var(--srb-color);
-    border-radius: 1000px;
+  background-color: var(--srb-color);
+  border-radius: 1000px;
 }
 
 /* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
 
 / * This is my first time writing this code, so there may be some errors. I apologize for any mistakes * /
+/* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
