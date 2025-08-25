@@ -166,7 +166,7 @@ position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
   transform: rotate (-8deg);
-  z-index: 9;
+  z-index: 4;
 }
 
 /* decorations 2 */
@@ -182,7 +182,7 @@ position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
   transform: rotate(-8deg);
-  z-index: 10;
+  z-index: 5;
 }
 
 
@@ -196,7 +196,7 @@ position: absolute;
   font-family: 'Bai Jamjuree', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: clamp(0.6rem, 1vw, 1.1rem)
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
   text-align: justify;
   color: #101010;
   line-height: 1.2;
@@ -209,7 +209,7 @@ position: absolute;
 }
   
 .mfl-txt::-webkit-scrollbar {
-  width: 0.78vw;
+  width: 0.5vw;
   margin-left: 0.8vw;
 }   
 .mfl-txt::-webkit-scrollbar-track {
@@ -262,12 +262,13 @@ position: absolute;
   padding: 10px 5px 10px 5px;
   box-sizing: border-box;
   transform: rotate(-0.4deg);
-  z-index: 9;
+  z-index: 7;
   overflow-y: scroll;
 }
 
 .mfl-ntxt::-webkit-scrollbar {
-  width: 0.78vw;
+  width: 0.5vw;
+ margin-left: 0.8vw;
 }
 
 .mfl-ntxt::-webkit-scrollbar-track {
