@@ -281,31 +281,6 @@ position: absolute;
 }
 
 
-
-
-.mfl-cd-c {
-  position: relative;
-  margin-top: 5px;
-  text-align: center;
-  font-size: 10px;
-  color: #888;
-}
-.mfl-cd-text {
-  cursor: pointer;
-  text-decoration: none;
-  color: #888;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.mfl-cd-text::before {
-  content: '[AT]';
-}
-
-.mfl-cd-text:hover::before {
-  content: '[CODED BY ARTY]';
-}
-
 /* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
 
 / * This is my first time writing this code, so there may be some errors. I apologize for any mistakes * /
