@@ -80,6 +80,7 @@
   width: 100%;
   padding: 10px 0;
   margin-bottom: 30px;
+  z-index: 99;
 }
 
 .pes-thl {
@@ -241,8 +242,8 @@ position: absolute;
   color: var(--mc);
   text-align: justify;
   margin-top: -25px;
-  z-index: 99; 
   padding: 20px 40px;
+  z-index: 99;
 }
 
 /* Name ber */
@@ -251,10 +252,10 @@ position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(var(--translate-x), var(--translate-y));
-  z-index: 99;
   text-align: center;
   width: 60%;
   padding: 10px;
+  z-index: 99;
 }
 
 .pes-nb-n {
@@ -302,6 +303,7 @@ position: absolute;
   width: 100%;
   padding: 10px 0;
   margin-bottom: 20px;
+  z-index: 99;
 }
 
 .pes-bl {
