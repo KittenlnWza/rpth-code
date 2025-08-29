@@ -90,6 +90,12 @@
   margin: 0 50px; 
 }
 
+.pes-thl:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
 .pes-thc {
   font-family: var(--sf02);
   font-size:  clamp(0.6rem, 1vw, 1.1rem);
@@ -100,6 +106,12 @@
   border-bottom: 2px solid var(--sc01);
 }
 
+.pes-thc:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
 .pes-thr {
   font-family: var(--sf02);
   font-size: clamp(0.6rem, 1vw, 1.1rem);
@@ -108,6 +120,11 @@
   margin: 0 50px; 
 }
 
+.pes-thr:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
 
 /*  main frame & layout */
 .pes-mfl {
@@ -296,6 +313,12 @@ position: absolute;
   margin: 0 50px;
 }
 
+.pes-bl:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
 .pes-br {
   font-family: var(--sf02);
   font-size:  clamp(0.6rem, 1vw, 1.1rem);
@@ -303,6 +326,12 @@ position: absolute;
   text-align: right;
   color: var(--sc02);
   margin: 0 50px;
+}
+
+.pes-br:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
 }
 
 /* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
