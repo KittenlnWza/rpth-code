@@ -224,7 +224,7 @@ position: absolute;
   color: var(--mc);
   text-align: justify;
   margin-top: -25px;
-  z-index: 8; 
+  z-index: 99; 
   padding: 20px 40px;
 }
 
@@ -234,7 +234,7 @@ position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(var(--translate-x), var(--translate-y));
-  z-index: 9;
+  z-index: 99;
   text-align: center;
   width: 60%;
   padding: 10px;
@@ -275,6 +275,7 @@ position: absolute;
   line-height: 1.4;
   color: var(--mc);
   text-align: right;
+  z-index: 99;
 }
 
 /* bottom topic */
