@@ -37,6 +37,7 @@
 }
 
 
+
 .petal-spring {
   position: relative;
   width: 100%;
@@ -44,6 +45,7 @@
   overflow: hidden;
   background: transparent;
   pointer-events: auto;
+
 }
 
 .pes {
@@ -231,32 +233,31 @@ position: absolute;
 
 /* text */
 .pes-text {
+  position: relative; /* สำคัญ: เพื่อให้สามารถวางชื่อทับบนเส้นขอบได้ */
   width: 90%;
   max-width: 100%;
   margin: 0 auto;
-  margin-top: 50px;
-  position: relative;
+  padding: 20px 40px;
   box-sizing: border-box;
   font-family: var(--mf);
   font-size: clamp(0.6rem, 1vw, 1.1rem);
   line-height: 1.2;
   color: var(--mc);
   text-align: justify;
-  padding: 20px 40px;
-  z-index: 99;
+  margin-top: -25px; /* เลื่อนขึ้นไปทับกล่องรูปภาพ */
+  z-index: 98;
 }
 
 /* Name ber */
 .pes-nb {
   position: absolute;
-  top: 0%;
-  left: 0%;
+  top: 90%; 
+  left: 50%;
   transform: translate(var(--translate-x), var(--translate-y));
   text-align: center;
   width: 60%;
   padding: 10px;
   z-index: 99;
-  left: 50%;
 }
 
 .pes-nb-n {
