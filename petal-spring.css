@@ -33,7 +33,7 @@
   
   /* title */
   --translate-x: -50%;
-  --translate-y: -25%;
+  --translate-y: -50%;
 }
 
 
@@ -234,14 +234,14 @@ position: absolute;
   width: 90%;
   max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  margin-top: 50px;
+  position: relative;
   box-sizing: border-box;
   font-family: var(--mf);
   font-size: clamp(0.6rem, 1vw, 1.1rem);
   line-height: 1.2;
   color: var(--mc);
   text-align: justify;
-  margin-top: -25px;
   padding: 20px 40px;
   z-index: 99;
 }
@@ -249,13 +249,14 @@ position: absolute;
 /* Name ber */
 .pes-nb {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0%;
+  left: 0%;
   transform: translate(var(--translate-x), var(--translate-y));
   text-align: center;
   width: 60%;
   padding: 10px;
   z-index: 99;
+  left: 50%;
 }
 
 .pes-nb-n {
