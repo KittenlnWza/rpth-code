@@ -43,6 +43,7 @@
   margin: 0 auto;
   overflow: hidden;
   background: transparent;
+  pointer-events: auto;
 }
 
 .pes {
