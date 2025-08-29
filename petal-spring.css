@@ -11,9 +11,9 @@
   --sf02: 'Texturina', sans-serif; 
   
   /* background */
-  --bg01: url(https://i.pinimg.com/736x/6d/01/83/6d0183b91dd41150c3ae54cbb334db51.jpg) center/cover no-repeat;  
+  --bg01: ;  
   --bg02: ;
-  --bg-sd: url(https://i.ibb.co/q3SgqBkS/shadow-moew.png) top/cover no-repeat;  
+  --bg-sd: ;  
   
   /* color */
   --mc: #000000; 
