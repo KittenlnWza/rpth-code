@@ -37,8 +37,15 @@
 }
 
 
-/* petal-spring */
 .petal-spring {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  background: transparent;
+}
+
+.pes {
   width: 100%;
   max-width: 100%;
   min-height: 100%;
@@ -53,7 +60,7 @@
   box-sizing: border-box;
 }
 
-.petal-spring::after {
+.pes::after {
   content: "";
   position: absolute;
   top: 0;
