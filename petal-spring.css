@@ -11,9 +11,9 @@
   --sf02: 'Texturina', sans-serif; 
   
   /* background */
-  --bg01: ;  
+  --bg01: url(https://i.pinimg.com/736x/6d/01/83/6d0183b91dd41150c3ae54cbb334db51.jpg) center/cover no-repeat;  
   --bg02: ;
-  --bg-sd: ;  
+  --bg-sd: url(https://i.ibb.co/q3SgqBkS/shadow-moew.png) top/cover no-repeat;  
   
   /* color */
   --mc: #000000; 
@@ -33,7 +33,7 @@
   
   /* title */
   --translate-x: -50%;
-  --translate-y: -86%;
+  --translate-y: -25%;
 }
 
 
@@ -41,7 +41,7 @@
 .petal-spring {
   width: 100%;
   max-width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   position: relative;
   justify-content: flex-start; 
   align-items: center;
@@ -76,7 +76,7 @@
 
 .pes-thl {
   font-family: var(--sf02);
-  font-size: 1.5vw;
+  font-size:  clamp(0.6rem, 1vw, 1.1rem);
   text-align: left;
   color: var(--sc02);
   margin: 0 50px; 
@@ -84,7 +84,7 @@
 
 .pes-thc {
   font-family: var(--sf02);
-  font-size: 1.8vw;
+  font-size:  clamp(0.6rem, 1vw, 1.1rem);
   font-weight: 700;
   text-align: center;
   color: var(--sc02);
@@ -94,7 +94,7 @@
 
 .pes-thr {
   font-family: var(--sf02);
-  font-size: 1.5vw;
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
   text-align: right;
   color: var(--sc02);
   margin: 0 50px; 
@@ -205,18 +205,19 @@ position: absolute;
 
 /* text */
 .pes-text {
-  width: 90vw;
-  max-width: 60vw;
+  width: 90%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
   font-family: var(--mf);
-  font-size: 1.5vw;
-  line-height: 1.6;
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
+  line-height: 1.2;
   color: var(--mc);
   text-align: justify;
   margin-top: -25px;
   z-index: 8; 
+  padding: 20px 40px;
 }
 
 /* Name ber */
@@ -227,13 +228,13 @@ position: absolute;
   transform: translate(var(--translate-x), var(--translate-y));
   z-index: 9;
   text-align: center;
-  width: 50%;
+  width: 60%;
   padding: 10px;
 }
 
 .pes-nb-n {
   font-family: var(--sf02);
-  font-size: 5vw; /* ขนาดใหญ่กว่าบรรทัดล่าง */
+  font-size: clamp(3.5rem, 4vw, 4.8rem);
   font-weight: 700;
   text-transform: uppercase;
   color: var(--sc01);
@@ -244,26 +245,24 @@ position: absolute;
 
 .pes-nb-ln {
   font-family: var(--sf01);
-  font-size: 5.5vw;
+  font-size:  clamp(3.5rem, 4vw, 4.8rem);
   font-weight: 700;
   color: var(--sc02);
   margin-top: -2.5vw; 
-  transform: translate(10%, 0);
+  transform: translate(15%, 0);
   line-height: 1;
 }
 
 /* note */
 .pes-note {
-  width: 90vw;
-  max-width: 60vw;
-  min-height: calc(1.5vw + 10px); 
-  max-height: calc(100% - 20px); 
+  width: 90%;
+  max-width: 100%;
   height: auto;
   margin: 10px auto;
   padding: 10px;
   box-sizing: border-box;
   font-family: var(--mf);
-  font-size: 1.5vw;
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
   font-weight: 700;
   line-height: 1.4;
   color: var(--mc);
@@ -281,7 +280,7 @@ position: absolute;
 
 .pes-bl {
   font-family: var(--sf02);
-  font-size: 1.5vw;
+  font-size:  clamp(0.6rem, 1vw, 1.1rem);
   font-weight: 700;
   text-align: left;
   color: var(--sc02);
@@ -290,8 +289,8 @@ position: absolute;
 
 .pes-br {
   font-family: var(--sf02);
-  font-size: 1.5vw;
-    font-weight: 700;
+  font-size:  clamp(0.6rem, 1vw, 1.1rem);
+  font-weight: 700;
   text-align: right;
   color: var(--sc02);
   margin: 0 50px;
