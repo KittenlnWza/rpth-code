@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/texturina');
+@import url('https://fonts.cdnfonts.com/css/lovely-pretty');
+
+/* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
+
+:root {
+  /* font */
+  --mf: "Bai Jamjuree", sans-serif;   
+  --sf01: 'Lovely Pretty', sans-serif;
+  --sf02: 'Texturina', sans-serif; 
+  
+  /* background */
+  --bg01: ;  
+  --bg02: ;
+  --bg-sd: ;  
+  
+  /* color */
+  --mc: #000000; 
+  --sc01: #fc8eac; 
+  --sc02: #6d6664; 
+  --sd-cl: #ffffff;
+  
+  /* photo */
+  --PT01: ;
+  --PT02: ;
+  --PT03; ;
+  
+  /* deco */
+  --DC01: ;
+  --DC02: ;
+  --DC03: ;
+  
+  /* title */
+  --translate-x: -50%;
+  --translate-y: -86%;
+}
+
+
+/* petal-spring */
+.petal-spring {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  justify-content: flex-start; 
+  align-items: center;
+  display: flex;
+  flex-direction: column; 
+  margin: 0 auto;
+  padding: 20px;
+  background: var(--bg01);
+  box-sizing: border-box;
+}
+
+.petal-spring::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-sd);
+  opacity: 1.7; 
+  z-index: 10; 
+}
+
+/* top header */
+.pes-th {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.pes-thl {
+  font-family: var(--sf02);
+  font-size: 1.5vw;
+  text-align: left;
+  color: var(--sc02);
+  margin: 0 50px; 
+}
+
+.pes-thc {
+  font-family: var(--sf02);
+  font-size: 1.8vw;
+  font-weight: 700;
+  text-align: center;
+  color: var(--sc02);
+  margin: 0 50px; 
+  border-bottom: 2px solid var(--sc01);
+}
+
+.pes-thr {
+  font-family: var(--sf02);
+  font-size: 1.5vw;
+  text-align: right;
+  color: var(--sc02);
+  margin: 0 50px; 
+}
+
+
+/*  main frame & layout */
+.pes-mfl {
+  position: relative;
+  width: 90vw;
+  max-width: 60vw;
+  aspect-ratio: 5 / 3;
+  background: var(--bg02);
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  z-index: 1;
+}
+
+.pes-env {
+  width: 90%;
+  height: 90%;
+  background: url(https://i.ibb.co/x8FpSNjb/pes-env.png) center/cover;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.pes-PT01 {
+position: absolute;
+  top: 12%;
+  left: 15%;
+  width: 25%;
+  height: 40%;
+  box-sizing: border-box;
+  background: var(--PT01) center/cover;
+  transform: rotate(7deg);
+  z-index: 2;
+}
+
+.pes-PT02 {
+position: absolute;
+  top: 37%;
+  left: 33.2%;
+  width: 25%;
+  height: 40%;
+  box-sizing: border-box;
+  background: var(--PT02) center/cover;
+  transform: rotate(-13deg);
+  z-index: 2;
+}
+
+.pes-PT03 {
+position: absolute;
+  top: 12%;
+  left: 60%;
+  width: 25%;
+  height: 40%;
+  box-sizing: border-box;
+  background: var(--PT03) center/cover;
+  transform: rotate(7deg);
+  z-index: 3;
+}
+
+.pes-DC01 {
+  position: absolute;
+  top: 10%;
+  left: 41%; 
+  width: 20%;
+  height: 20%;
+  background: var(--DC01) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-8deg);
+  z-index: 4;
+}
+
+.pes-DC02 {
+  position: absolute;
+  bottom: 15%;
+  left: 16%; 
+  width: 20%;
+  height: 20%;
+  background: var(--DC02) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-10deg);
+  z-index: 6;
+}
+
+.pes-DC03 {
+  position: absolute;
+  bottom: 15%;
+  left: 60%; 
+  width: 20%;
+  height: 20%;
+  background: var(--DC03) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(10deg);
+  z-index: 7;
+}
+
+/* text */
+.pes-text {
+  width: 90vw;
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: var(--mf);
+  font-size: 1.5vw;
+  line-height: 1.6;
+  color: var(--mc);
+  text-align: justify;
+  margin-top: -25px;
+  z-index: 8; 
+}
+
+/* Name ber */
+.pes-nb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(var(--translate-x), var(--translate-y));
+  z-index: 9;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.pes-nb-n {
+  font-family: var(--sf02);
+  font-size: 5vw; /* ขนาดใหญ่กว่าบรรทัดล่าง */
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--sc01);
+  margin: 0;
+  line-height: 1; 
+  text-shadow: -2px 1px 9px var(--sd-cl);
+}
+
+.pes-nb-ln {
+  font-family: var(--sf01);
+  font-size: 5.5vw;
+  font-weight: 700;
+  color: var(--sc02);
+  margin-top: -2.5vw; 
+  transform: translate(10%, 0);
+  line-height: 1;
+}
+
+/* note */
+.pes-note {
+  width: 90vw;
+  max-width: 60vw;
+  min-height: calc(1.5vw + 10px); 
+  max-height: calc(100% - 20px); 
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: var(--mf);
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--mc);
+  text-align: right;
+}
+
+/* bottom topic */
+.pes-b {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.pes-bl {
+  font-family: var(--sf02);
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: left;
+  color: var(--sc02);
+  margin: 0 50px;
+}
+
+.pes-br {
+  font-family: var(--sf02);
+  font-size: 1.5vw;
+    font-weight: 700;
+  text-align: right;
+  color: var(--sc02);
+  margin: 0 50px;
+}
+
+/* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
