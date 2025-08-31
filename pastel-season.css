@@ -38,9 +38,9 @@
 
 
 
-.petal-spring {
+.pastel-season {
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
   background: transparent;
@@ -48,7 +48,7 @@
 
 }
 
-.pes {
+.ps {
   width: 100%;
   max-width: 100%;
   min-height: 100%;
@@ -63,7 +63,7 @@
   box-sizing: border-box;
 }
 
-.pes::after {
+.ps::after {
   content: "";
   position: absolute;
   top: 0;
@@ -76,7 +76,7 @@
 }
 
 /* top header */
-.pes-th {
+.ps-th {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -85,7 +85,7 @@
   z-index: 99;
 }
 
-.pes-thl {
+.ps-thl {
   font-family: var(--sf02);
   font-size:  clamp(0.6rem, 1vw, 1.1rem);
   text-align: left;
@@ -93,13 +93,13 @@
   margin: 0 50px; 
 }
 
-.pes-thl:hover {
+.ps-thl:hover {
   color: var(--sc02); 
   transform: scale(1.1); 
   transition: all 0.3s ease;
 }
 
-.pes-thc {
+.ps-thc {
   font-family: var(--sf02);
   font-size:  clamp(0.6rem, 1vw, 1.1rem);
   font-weight: 700;
@@ -109,13 +109,13 @@
   border-bottom: 2px solid var(--sc01);
 }
 
-.pes-thc:hover {
+.ps-thc:hover {
   color: var(--sc02); 
   transform: scale(1.1); 
   transition: all 0.3s ease;
 }
 
-.pes-thr {
+.ps-thr {
   font-family: var(--sf02);
   font-size: clamp(0.6rem, 1vw, 1.1rem);
   text-align: right;
@@ -123,14 +123,14 @@
   margin: 0 50px; 
 }
 
-.pes-thr:hover {
+.ps-thr:hover {
   color: var(--sc02); 
   transform: scale(1.1); 
   transition: all 0.3s ease;
 }
 
 /*  main frame & layout */
-.pes-mfl {
+.ps-mfl {
   position: relative;
   width: 90vw;
   max-width: 60vw;
@@ -145,7 +145,7 @@
   z-index: 1;
 }
 
-.pes-env {
+.ps-env {
   width: 90%;
   height: 90%;
   background: url(https://i.ibb.co/x8FpSNjb/pes-env.png) center/cover;
@@ -153,7 +153,7 @@
   z-index: 5;
 }
 
-.pes-PT01 {
+.ps-PT01 {
 position: absolute;
   top: 12%;
   left: 15%;
@@ -165,7 +165,7 @@ position: absolute;
   z-index: 2;
 }
 
-.pes-PT02 {
+.ps-PT02 {
 position: absolute;
   top: 37%;
   left: 33.2%;
@@ -177,7 +177,7 @@ position: absolute;
   z-index: 2;
 }
 
-.pes-PT03 {
+.ps-PT03 {
 position: absolute;
   top: 12%;
   left: 60%;
@@ -189,7 +189,7 @@ position: absolute;
   z-index: 3;
 }
 
-.pes-DC01 {
+.ps-DC01 {
   position: absolute;
   top: 10%;
   left: 41%; 
@@ -203,7 +203,7 @@ position: absolute;
   z-index: 4;
 }
 
-.pes-DC02 {
+.ps-DC02 {
   position: absolute;
   bottom: 15%;
   left: 16%; 
@@ -217,7 +217,7 @@ position: absolute;
   z-index: 6;
 }
 
-.pes-DC03 {
+.ps-DC03 {
   position: absolute;
   bottom: 15%;
   left: 60%; 
@@ -231,36 +231,33 @@ position: absolute;
   z-index: 7;
 }
 
-/* text */
-.pes-text {
-  position: relative; /* สำคัญ: เพื่อให้สามารถวางชื่อทับบนเส้นขอบได้ */
-  width: 90%;
-  max-width: 100%;
+/* Name bar */
+.ps-nb {
+  position: relative;
+  width: 90%; 
+  max-width: 80%; 
   margin: 0 auto;
-  padding: 20px 40px;
+  padding: 5px;
   box-sizing: border-box;
-  font-family: var(--mf);
-  font-size: clamp(0.6rem, 1vw, 1.1rem);
-  line-height: 1.2;
-  color: var(--mc);
-  text-align: justify;
-  margin-top: -25px; /* เลื่อนขึ้นไปทับกล่องรูปภาพ */
-  z-index: 98;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
 }
 
-/* Name ber */
-.pes-nb {
-  position: absolute;
-  top: 90%; 
-  left: 50%;
-  transform: translate(var(--translate-x), var(--translate-y));
+.ps-n {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+  z-index: auto;
+  width: 100%;
+  padding: 0;
   text-align: center;
-  width: 60%;
-  padding: 10px;
-  z-index: 99;
 }
 
-.pes-nb-n {
+.ps-nb-n {
   font-family: var(--sf02);
   font-size: clamp(3.5rem, 4vw, 4.8rem);
   font-weight: 700;
@@ -271,18 +268,35 @@ position: absolute;
   text-shadow: -2px 1px 9px var(--sd-cl);
 }
 
-.pes-nb-ln {
+.ps-nb-ln {
   font-family: var(--sf01);
   font-size:  clamp(3.5rem, 4vw, 4.8rem);
   font-weight: 700;
   color: var(--sc02);
-  margin-top: -2.5vw; 
+  margin-top: -3.5vw; 
   transform: translate(15%, 0);
   line-height: 1;
 }
 
+/* text */
+.ps-text {
+  position: relative;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  font-family: var(--mf);
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
+  line-height: 1.2;
+  color: var(--mc);
+  text-align: justify;
+  margin-top: -25px; 
+  z-index: 98;
+}
+
 /* note */
-.pes-note {
+.ps-note {
   width: 90%;
   max-width: 100%;
   height: auto;
@@ -299,7 +313,7 @@ position: absolute;
 }
 
 /* bottom topic */
-.pes-b {
+.ps-b {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -308,7 +322,7 @@ position: absolute;
   z-index: 99;
 }
 
-.pes-bl {
+.ps-bl {
   font-family: var(--sf02);
   font-size:  clamp(0.6rem, 1vw, 1.1rem);
   font-weight: 700;
@@ -317,13 +331,13 @@ position: absolute;
   margin: 0 50px;
 }
 
-.pes-bl:hover {
+.ps-bl:hover {
   color: var(--sc02); 
   transform: scale(1.1); 
   transition: all 0.3s ease;
 }
 
-.pes-br {
+.ps-br {
   font-family: var(--sf02);
   font-size:  clamp(0.6rem, 1vw, 1.1rem);
   font-weight: 700;
@@ -332,7 +346,7 @@ position: absolute;
   margin: 0 50px;
 }
 
-.pes-br:hover {
+.ps-br:hover {
   color: var(--sc02); 
   transform: scale(1.1); 
   transition: all 0.3s ease;
