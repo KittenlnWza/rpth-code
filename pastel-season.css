@@ -132,8 +132,8 @@
 /*  main frame & layout */
 .ps-mfl {
   position: relative;
-  width: 90vw;
-  max-width: 60vw;
+  width: 90%;
+  max-width: 60%;
   aspect-ratio: 5 / 3;
   background: var(--bg02);
   margin: 0 auto;
@@ -273,7 +273,7 @@ position: absolute;
   font-size:  clamp(3.5rem, 4vw, 4.8rem);
   font-weight: 700;
   color: var(--sc02);
-  margin-top: -3.5vw; 
+  margin-top: -2.5vw; 
   transform: translate(15%, 0);
   line-height: 1;
 }
