@@ -176,3 +176,180 @@ position: absolute;
   transform: rotate(-13deg);
   z-index: 2;
 }
+
+.ps-PT03 {
+position: absolute;
+  top: 12%;
+  left: 60%;
+  width: 25%;
+  height: 40%;
+  box-sizing: border-box;
+  background: var(--PT03) center/cover;
+  transform: rotate(7deg);
+  z-index: 3;
+}
+
+.ps-DC01 {
+  position: absolute;
+  top: 10%;
+  left: 41%; 
+  width: 20%;
+  height: 20%;
+  background: var(--DC01) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-8deg);
+  z-index: 4;
+}
+
+.ps-DC02 {
+  position: absolute;
+  bottom: 15%;
+  left: 16%; 
+  width: 20%;
+  height: 20%;
+  background: var(--DC02) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-10deg);
+  z-index: 6;
+}
+
+.ps-DC03 {
+  position: absolute;
+  bottom: 15%;
+  left: 60%; 
+  width: 20%;
+  height: 20%;
+  background: var(--DC03) center/cover;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(10deg);
+  z-index: 7;
+}
+
+/* Name bar */
+.ps-nb {
+  position: relative;
+  width: 90%; 
+  max-width: 80%; 
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.ps-n {
+  position: static;
+  top: auto;
+  left: auto;
+  transform: none;
+  z-index: auto;
+  width: 100%;
+  padding: 0;
+  text-align: center;
+}
+
+.ps-n-fn {
+  font-family: var(--sf02);
+  font-size: clamp(3.5rem, 4vw, 4.8rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--sc01);
+  margin: 0;
+  line-height: 1; 
+  text-shadow: -2px 1px 9px var(--sd-cl);
+}
+
+.ps-n-ln {
+  font-family: var(--sf01);
+  font-size:  clamp(3rem, 3.5vw, 4rem);
+  font-weight: 700;
+  color: var(--sc02);
+  margin-top: -2.8vw; 
+  transform: translate(15%, 0);
+  line-height: 1;
+}
+
+/* text */
+.ps-text {
+  position: relative;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  font-family: var(--mf);
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
+  line-height: 1.2;
+  color: var(--mc);
+  text-align: justify;
+  margin-top: -25px; 
+  z-index: 98;
+}
+
+/* note */
+.ps-note {
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: var(--mf);
+  font-size: clamp(0.6rem, 1vw, 1.1rem);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--mc);
+  text-align: right;
+  z-index: 99;
+}
+
+/* bottom topic */
+.ps-b {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  z-index: 99;
+}
+
+.ps-bl {
+  font-family: var(--sf02);
+  font-size:  clamp(0.6rem, 1vw, 1.1rem);
+  font-weight: 700;
+  text-align: left;
+  color: var(--sc02);
+  margin: 0 50px;
+}
+
+.ps-bl:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
+.ps-br {
+  font-family: var(--sf02);
+  font-size:  clamp(0.6rem, 1vw, 1.1rem);
+  font-weight: 700;
+  text-align: right;
+  color: var(--sc02);
+  margin: 0 50px;
+}
+
+.ps-br:hover {
+  color: var(--sc02); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease;
+}
+
+/* CODE BY ATHENIA V. S. FOR ROLEPLAYTH */
