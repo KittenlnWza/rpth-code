@@ -204,7 +204,7 @@
 .pwm-dc03 {
   position: absolute;
   top: 12%;
-  left: 3.2%; 
+  left: 1.2%; 
   width: 50%;
   height: 30%;
   background: var(--DC03) center/cover;
@@ -219,7 +219,7 @@
 .pwm-text {
   position: absolute;
   top: 32%;
-  left: 30.5%;
+  left: 29.1%;
   width: 65%;
   height: 50%;
   font-family: var(--mf);
@@ -237,14 +237,14 @@
   overflow-y: scroll;
 }
 
-.pwm-txt::-webkit-scrollbar {
+.pwm-text::-webkit-scrollbar {
   width: 0.5vw;
   margin-left: 0.8vw;
 }   
-.pwm-txt::-webkit-scrollbar-track {
+.pwm-text::-webkit-scrollbar-track {
   background: transparent;
 }   
-.pwm-txt::-webkit-scrollbar-thumb {
+.pwm-text::-webkit-scrollbar-thumb {
   background-color: var(--srbc);
   border-radius: 1000px;
 }
