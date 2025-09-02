@@ -26,8 +26,6 @@
   --DC03: ;
 }
 
-
-/* กล่องครอบทั้งหมด */
 .pastel-whisper-mail {
   width: 100%; 
   max-width: 100%; 
@@ -219,7 +217,7 @@
 .pwm-text {
   position: absolute;
   top: 32%;
-  left: 29.8%;
+  left: 30.2%;
   width: 65%;
   height: 50%;
   font-family: var(--mf);
