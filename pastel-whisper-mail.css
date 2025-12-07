@@ -9,7 +9,7 @@
   --sf: 'Classthy Theriond', sans-serif;
   
   /* background */
-  --bg: ;
+  --bg: #dddddd;
   
     /* color */
   --textc: #000000; 
@@ -26,13 +26,15 @@
   --DC03: ;
 }
 
+
+/* กล่องครอบทั้งหมด */
 .pastel-whisper-mail {
   width: 100%; 
   max-width: 100%; 
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   min-height: 100vh;
   margin: 0 auto;
 }
@@ -62,26 +64,18 @@
 
 /* Envelope - blue */
 .pwm-env-blue {
-  position: absolute;
-  width: 100%;
-  background: url(https://i.ibb.co/Pzzg8nsp/blue-2.png);
-  aspect-ratio: 3 / 4;
-  box-sizing: border-box;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 2;
+  position: absolute;
+  width: 100%;
+  background: url(https://i.ibb.co/Pzzg8nsp/blue.png);
+  aspect-ratio: 3 / 4;
+  box-sizing: border-box;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 2;
 }
 
 /* Envelope - brown */
 .pwm-env-brown {
-  position: absolute;
-  width: 100%;
-  background: url(https://i.ibb.co/pvSqSRBJ/brown.png);
-  aspect-ratio: 3 / 4;
-  box-sizing: border-box;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 2;
 }
 
 /* Envelope - green */
@@ -217,7 +211,7 @@
 .pwm-text {
   position: absolute;
   top: 32%;
-  left: 30.2%;
+  left: 29.8%;
   width: 65%;
   height: 50%;
   font-family: var(--mf);
